@@ -6,9 +6,11 @@ class GameRules
 	enum class DeckType { cards_36, cards_52, cards_54_w_Jockers} _deck_type;
 
 public:
-	static GameRules* Get_Game_Rules(int GameID)
+	static GameRules* Get_Game_Rules(GameType GameID)
 	{
 		switch (GameID)
+
+			
 
 			GameRules* temp_ptr = new Fool;
 			

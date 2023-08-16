@@ -36,13 +36,15 @@
 
 */
 
-//Task 1 Приложение с карточными играми: 1) дурак 2) 101
+//Task 1 Приложение с карточными играми: 
+	//1) дурак 
+	//2) 101
+
 void Task_1()
 {	
 	Crupier crupier_obj;
 	std::set<Player*> players_set{ new Player, new Player, new Player };
-
-	
+		
 	crupier_obj.Start_Game_Session(GameType::Fool, players_set);
 
 }

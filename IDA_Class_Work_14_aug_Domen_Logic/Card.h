@@ -2,7 +2,7 @@
 class Card
 {
 
-	int value;
+	int _value;
 	enum class CardSuit { spades, clubs, hearts, diamonds } _suite;
 
 };
