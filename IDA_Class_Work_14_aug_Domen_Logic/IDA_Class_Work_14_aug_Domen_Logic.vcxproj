@@ -136,6 +136,7 @@
     <ClCompile Include="Hand.cpp" />
     <ClCompile Include="!_Main.cpp" />
     <ClCompile Include="Service functions.cpp" />
+    <ClCompile Include="Table.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h" />
@@ -146,6 +147,7 @@
     <ClInclude Include="GameRules.h" />
     <ClInclude Include="Hand.h" />
     <ClInclude Include="Service functions.h" />
+    <ClInclude Include="Table.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

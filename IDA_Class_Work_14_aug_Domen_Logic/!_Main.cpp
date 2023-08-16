@@ -5,9 +5,10 @@
 #include <time.h>
 #include <algorithm>
 #include <conio.h>
+#include <set>
 //My own headers
 #include "Service functions.h"
-#include "Task_1.h"
+#include "Crupier.h"
 
 
 // Class Work 14.08.2023 -------------------------------------------	
@@ -37,7 +38,12 @@
 
 //Task 1 Приложение с карточными играми: 1) дурак 2) 101
 void Task_1()
-{
+{	
+	Crupier crupier_obj;
+	std::set<Player*> players_set{ new Player, new Player, new Player };
+
+	
+	crupier_obj.Start_Game_Session(GameType::Fool, players_set);
 
 }
 //Task 2
